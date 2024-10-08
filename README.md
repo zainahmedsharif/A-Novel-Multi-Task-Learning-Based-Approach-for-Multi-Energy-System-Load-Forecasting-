@@ -35,9 +35,10 @@ The network also includes residual connections for efficient learning of long-ra
 The proposed D-TCNet model showed improved performance across all seasons for multi-energy load forecasting. It was compared against traditional machine learning models (SVM, Random Forest) and state-of-the-art deep learning models (LSTM, Bi-LSTM).
 
 ### Performance Metrics:
+
 Mean Absolute Percentage Error (MAPE): MAPE is a scale independent evaluation metric which can be used to compare algorithm performance across different time series as well. For any forecasting algorithm, a lower MAPE translates to better performance.
 
-Root Mean Squared Error (RMSE): Used to measure prediction error.
+Root Mean Squared Error (RMSE): Mean absolute error is obtained by taking the mean of absolute difference between actual and predicted values. A model with higher accuracy would have a lower MAE. 
 
 ### Key Findings:
 The D-TCNet model significantly outperformed single-task learning approaches and other state-of-the-art methods, particularly in accuracy (lower MAPE and RMSE).
