@@ -24,13 +24,11 @@ The proposed model, D-TCNet, is a deep learning network that combines Multi-Laye
 
 ### Key Components:
 Multi-Layer Perceptron (MLP): Encodes spatial information and reduces data dimensionality.
+
 Temporal Convolutional Network (TCN): Captures temporal dependencies in time series data using causal and dilated convolutions with residual blocks.
+
 Multi-Task Learning (MTL): Allows simultaneous learning of different energy variables by sharing a part of the network across tasks.
-TCN Features:
-Kernel Size: 8
-Dropout Rate: 0.2
-Activation Function: Leaky ReLU
-Number of TCN Blocks: 3
+
 The network also includes residual connections for efficient learning of long-range temporal dependencies, reducing the number of layers required for a large receptive field.
 
 ## Results
