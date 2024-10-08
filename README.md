@@ -32,7 +32,7 @@ Multi-Task Learning (MTL): Allows simultaneous learning of different energy vari
 The network also includes residual connections for efficient learning of long-range temporal dependencies, reducing the number of layers required for a large receptive field.
 
 ## Results
-The proposed D-TCNet model showed improved performance across all seasons for multi-energy load forecasting. It was compared against traditional machine learning models (SVM, Random Forest) and state-of-the-art deep learning models (LSTM, Bi-LSTM).
+The proposed D-TCNet model showed improved performance across all seasons for multi-energy load forecasting. It was compared against traditional machine learning models (Support Vector Machine, Random Forest) and state-of-the-art deep learning models (LSTM, Bi-LSTM).
 
 ### Performance Metrics:
 
