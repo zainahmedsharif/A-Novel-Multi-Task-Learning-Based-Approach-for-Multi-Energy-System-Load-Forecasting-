@@ -38,7 +38,7 @@ The proposed D-TCNet model showed improved performance across all seasons for mu
 
 Mean Absolute Percentage Error (MAPE) is a scale independent evaluation metric which can be used to compare algorithm performance across different time series as well. For any forecasting algorithm, a lower MAPE translates to better performance.
 
-Mean Absolute Error (MAE): Mean absolute error is obtained by taking the mean of absolute difference between actual and predicted values. A model with higher accuracy would have a lower MAE. 
+Mean Absolute Error (MAE) is obtained by taking the mean of absolute difference between actual and predicted values. A model with higher accuracy would have a lower MAE. 
 
 ### Key Findings:
 The D-TCNet model significantly outperformed single-task learning approaches and other state-of-the-art methods, particularly in accuracy (lower MAPE and RMSE).
