@@ -22,7 +22,7 @@ The data was divided into seasons (summer, fall, winter, spring), and distance c
 ## Network Architecture
 The proposed model, D-TCNet, is a deep learning network that combines Multi-Layer Perceptrons (MLP) and Temporal Convolutional Networks (TCN). The architecture leverages multi-task learning (MTL) to forecast cooling, heating, and electricity loads simultaneously by sharing information across these tasks.
 
-Key Components:
+### Key Components:
 Multi-Layer Perceptron (MLP): Encodes spatial information and reduces data dimensionality.
 Temporal Convolutional Network (TCN): Captures temporal dependencies in time series data using causal and dilated convolutions with residual blocks.
 Multi-Task Learning (MTL): Allows simultaneous learning of different energy variables by sharing a part of the network across tasks.
@@ -36,11 +36,11 @@ The network also includes residual connections for efficient learning of long-ra
 ## Results
 The proposed D-TCNet model showed improved performance across all seasons for multi-energy load forecasting. It was compared against traditional machine learning models (SVM, Random Forest) and state-of-the-art deep learning models (LSTM, Bi-LSTM).
 
-Performance Metrics:
+### Performance Metrics:
 Mean Absolute Percentage Error (MAPE): Used to evaluate forecasting accuracy.
 
 Root Mean Squared Error (RMSE): Used to measure prediction error.
 
-Key Findings:
+### Key Findings:
 The D-TCNet model significantly outperformed single-task learning approaches and other state-of-the-art methods, particularly in accuracy (lower MAPE and RMSE).
 The model achieved better results in forecasting energy demand across different seasons by leveraging multi-task learning and distance correlation analysis.
