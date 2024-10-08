@@ -38,7 +38,9 @@ The proposed D-TCNet model showed improved performance across all seasons for mu
 
 Performance Metrics:
 Mean Absolute Percentage Error (MAPE): Used to evaluate forecasting accuracy.
+
 Root Mean Squared Error (RMSE): Used to measure prediction error.
+
 Key Findings:
 The D-TCNet model significantly outperformed single-task learning approaches and other state-of-the-art methods, particularly in accuracy (lower MAPE and RMSE).
 The model achieved better results in forecasting energy demand across different seasons by leveraging multi-task learning and distance correlation analysis.
